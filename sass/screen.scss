@@ -1,0 +1,27 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+.party {
+	padding: 15px;
+	background-color: gray;
+	margin: 5px 0px 5px 0px;
+	.partyName {
+		margin: 0px;
+		color: white;
+		font-size: 2em;
+	}
+	.partyDescription {
+		margin: 0px;
+		color: orange;
+	}
+}
+
+// .tableRow {
+// 	border: 1px;
+// 	border-color: black;
+// 	margin: 2px;
+// 	background-color: blue;
+// 	color: white;
+// }

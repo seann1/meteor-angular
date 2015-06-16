@@ -3,7 +3,7 @@ if (Meteor.isClient) {
 
 	angular.module("socially").controller("PartiesListCtrl",
 		function($scope){
-
+			$scope.name = "World";
 			$scope.parties = [
 				{'name': 'Dubstep-Free Zone', 'description': 'Can we please just for an evening not listen to dubstep.'},
 				{'name': 'All dubstep all the time', 'description': 'Get it on!'},
